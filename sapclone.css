@@ -1,0 +1,419 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+main{
+    background-color: whitesmoke;
+}
+.headcolor{
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    justify-content:space-evenly;
+    align-items:center;
+    display: flex;
+    position: fixed;
+}
+.sapicon{
+    padding: 1rem;
+    display: flex-start;
+    margin-right: 200px;
+}
+.sapicon1{
+    background-image: url("sapicon1.jpg");
+    height: 3rem;
+    width:calc(4rem);
+    background-size: cover;
+}
+.head2{
+    align-items: center;
+    display:flex;
+    color: grey;
+}
+.head2space{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+#head1color:hover{color: white;
+    cursor: pointer;
+}
+.explore{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding:5px;
+}
+.product{
+    margin-right: 60px;
+}
+.support{
+    margin-right: 60px;
+}
+.learning{
+    margin-right: 60px;
+}
+.community{
+    margin-right: 60px;
+}
+.partners{
+    margin-right: 60px;
+}
+.about{
+    margin-right: 60px;
+}
+.explore{
+    margin-right: 60px;
+}
+.studenticon{
+    margin-right: 10px;
+}
+.searchicon{
+    margin-right:10px;
+}
+.interneticon{
+    margin-right: 10px;
+}
+.heroimage{
+    background-image: url("sapheroimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:38rem;
+}
+.prepare{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:black;
+    width:50%;
+    margin-top: 2rem;
+}
+.whether{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:black;
+    width:45%;
+}
+.explorebox{
+    margin-top: 2rem;
+    height: 3rem;
+    background-color:blue;
+    color:white;
+    width:10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explorebox:hover{
+    background-color:rgb(10, 4, 99);
+    cursor: pointer;
+    transition: 0.9s;
+}
+.setheroparts{
+    display: inline-block;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+.solution{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    border-left: 0.4rem solid black;
+    color:black;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.atoz{
+    height: 3rem;
+    width:12rem;
+    font-size: 1rem;
+    border:2px solid skyblue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45rem;
+}
+.atoz:hover{
+    background-color: blue;
+    cursor: pointer;
+    color:white;
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow:10px 10px 10px blue;
+}
+.contacticon{
+    height: 4rem;
+    width: 5rem;
+    justify-content: center;
+    position:fixed;
+    background-color: blue;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-left: 73.9rem;
+    margin-top: 14rem;
+    cursor:pointer;
+    padding:2px;
+}
+.boxheading{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:10px;
+}
+.boxpara{
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding:10px;
+}
+.boxlink{
+    color:blue;
+    padding:10px;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.boxlink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.boxbackground{
+    margin-top: 55px;
+    height: 220px;
+    width: 42%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:3px 3px 3px 3px rgb(197, 196, 196);
+    cursor: pointer;
+}
+.box{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxbackground:hover{
+    
+    transform: scale(1.1);
+}
+.boxcontent{
+    background-color: white;
+}
+.leadertrust{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color:black;
+    width: 80%;
+    margin-left: 10rem;
+    margin-top: 8rem;
+    text-align: center;
+}
+.who{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-left: 4px solid black;
+    padding: 1rem;
+    margin-bottom: 10rem;
+}
+.cloudsolution{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    background:linear-gradient(to right,#030359,#050576,#0a0a92,#1212b9,#3b3bef,#5252f7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.provenbest{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    color:black;
+    margin-bottom: 3rem;
+}
+.getstarted{
+    height: 2.5rem;
+    color:white;
+    width:10rem;
+    background-color: blue;
+    font-size: 1rem;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getstarted:hover{
+    background-color: rgb(3, 3, 107);
+    cursor: pointer;
+}
+.cloudimage{
+    background-image: url("cloudimage.jpg");
+    height:45rem;
+    width:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clouds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    background-size: cover;
+}
+.cloud{
+    width: 40%;
+    margin-right: 4rem;
+}
+.additional{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-left: 4px solid black;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color:black;
+}
+.boxs1image{
+    height: 240px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("industrysolution.jpg");
+}
+.boxs2image{
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("transformationofferings.jpg");
+}
+.boxs3image{
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("partnerecosystem.jpg");
+}
+.boxs4image{
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("sustainabilitysolutions.jpg");
+}
+.boxsbackground{
+    margin-top: 4rem;
+    height: 410px;
+    width: 42%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    box-shadow:3px 3px 3px 3px rgb(197, 196, 196);
+    cursor: pointer;
+}
+.boxsbackground:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.boxsimagedesign{
+    height: 240px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxsheading{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:22px;
+    text-align: center;
+}
+.boxsparagraph{
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding:10px;
+}
+.boxslink{
+    color:blue;
+    padding:10px;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.boxslink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.leadertrusts{
+    font-size: 2.6rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color:black;
+    width: 80%;
+    margin-left: rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.customerstory{
+    height: 3rem;
+    width: 20rem;
+    color:white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.customerstories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customerstory:hover{
+    cursor: pointer;
+    background-color: rgb(2, 2, 87);
+}
+.leadertrustbackimage{
+    background-image: url("worldmap1.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leadtrust{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+.whatnew{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-left: 4px solid black;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    color:black;
+}
